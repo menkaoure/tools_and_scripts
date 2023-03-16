@@ -1,5 +1,5 @@
 ## Collection of usefull tools, commands and tips
-Gitlab aliases
+Git aliases
 ```
 credential.https://cmp-sdlc.stzh.ch.provider=generic
 alias.st=status
