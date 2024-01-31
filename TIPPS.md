@@ -24,3 +24,5 @@ https://hackprogramming.com/blog/how-to-setup-subdomain-or-host-multiple-domains
 # specificities of windowns environment (use slash and not backslash)
 \i 'C:/temp/test_tables.sql'
 ```
+#### Linux LVM
+https://www.linkedin.com/pulse/how-add-discover-new-disk-create-lvm-linux-virtual-machine-khating/
