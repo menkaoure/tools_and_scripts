@@ -26,3 +26,9 @@ https://hackprogramming.com/blog/how-to-setup-subdomain-or-host-multiple-domains
 ```
 #### Linux LVM
 https://www.linkedin.com/pulse/how-add-discover-new-disk-create-lvm-linux-virtual-machine-khating/
+
+#### Powershell
+```ps1
+netstat -ano | findstr <str>
+taskkill /F /PID <pid>
+```
