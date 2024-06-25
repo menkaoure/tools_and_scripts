@@ -32,3 +32,11 @@ https://www.linkedin.com/pulse/how-add-discover-new-disk-create-lvm-linux-virtua
 netstat -ano | findstr <str>
 taskkill /F /PID <pid>
 ```
+
+#### VMWare Windows 11 & Server blue Screen (Unsupported Processor)
+[ypervisorlaunchtype auto](https://www.deskmodder.de/blog/2022/08/22/vmware-installation-der-windows-11-insider-und-windows-server-2022-werden-mit-unsupported-processor-beendet-workaround/)
+
+```
+bcdedit /enum
+bcdedit /set hypervisorlaunchtype off
+```
