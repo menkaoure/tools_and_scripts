@@ -1,0 +1,15 @@
+#### Powershell tipps
+
+###### Robocopy
+```ps1
+$pwd='xxxxxxxx'
+$usr='domain\user'
+
+net use \\192.168.200.34 /user:$usr $pwd
+
+Robocopy.exe "\\192.168.200.34\f$\ELO-UPD\Backup" "f:\ELO-DB\Backup" /e /b /copyall /r:6 /w:5 /MT:64 /tee /log:f:\temppath_elo\rbcopy-192_168_200_33.log
+
+net use \\192.168.200.34 /D
+```
+
+notes: https://learn.microsoft.com/de-de/windows-server/storage/dfs-replication/preseed-dfsr-with-robocopy
