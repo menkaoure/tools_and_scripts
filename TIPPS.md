@@ -40,3 +40,7 @@ taskkill /F /PID <pid>
 bcdedit /enum
 bcdedit /set hypervisorlaunchtype off
 ```
+
+#### Mac
+Install Minikube on MAC arm64-based systems without any issues
+https://devopscube.com/minikube-mac/
