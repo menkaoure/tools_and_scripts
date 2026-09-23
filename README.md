@@ -20,3 +20,6 @@ git config --global user.email "Alexandre.NguentchengMotcheyo@company.com"
 
 #### Grafik
 - https://excalidraw.com/
+
+#### Technology adoption survey
+stackoverflow: https://survey.stackoverflow.co/2025/technology
